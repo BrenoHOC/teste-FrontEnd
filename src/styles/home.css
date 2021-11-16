@@ -1,0 +1,106 @@
+
+/** HEADER **/
+
+.header-container {
+    max-width: 1440px;
+    height: 375px;
+
+    background-image: url('../assets/images/header.svg');
+}
+
+.header-container-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container-text {
+    margin-top: 30px;
+    margin-right: 160px;    
+}
+
+.header-container-search {
+    display: flex;
+    justify-content: center;
+    padding-top: 132px;
+}
+
+
+
+.header-container-search input {
+    width: 540px;
+    height: 50px;
+    /* White */
+
+    background: #FFFFFF;
+    /* Light Medium */
+
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    background-image: url('../assets/images/search-primary.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+
+}
+
+.header-container-search input::placeholder {
+    padding-left: 60px;
+}
+
+.header-container h2 {
+
+    font-family: Maison Neue Extended;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140%;
+
+    text-align: right;
+
+    color: #141414;
+}
+
+.header-container p {
+    max-width: 350px;
+    
+    font-family: Maison Neue Extended;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+
+    text-align: right;
+
+    color: #676666;
+}
+
+#logo {
+    width: 87px;
+    height: 34px;
+    margin-left: 165px;
+    margin-top: 30px;
+}
+
+/** SECTION **/
+
+.main-container {
+    width: 730px;
+    margin: 30px 355px 174px 355px;
+}
+
+.main-container-restaurantes {
+    display: flex;
+    max-width: 730px;
+    flex-wrap: wrap;
+}
+
+.main-container h2 {
+    padding: 15px;
+}
+
+.main-container-restaurantes .item {
+    width: 350px;
+    padding: 15px;
+}

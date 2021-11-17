@@ -1,0 +1,99 @@
+.listRestaurant {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 730px;
+}
+
+
+
+.listRestaurant div img {
+    border-radius: 10px;
+    height: 170px;
+    width: 350px;
+}
+
+/** SECTION **/
+
+
+.main-container-restaurantes {
+    display: flex;
+    max-width: 730px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .listRestaurant div {
+        width: 350px;
+        padding: 0 30px 30px 0;
+    }
+
+    .main-container {
+        width: 730px;
+        margin: 30px 355px 174px 355px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    
+    .main-container {
+        max-width: 730px;
+        margin-left: 20%;
+    }
+
+    .listRestaurant img {
+        margin: 5px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .listRestaurant div {
+        width: 300px;
+        padding: 0 30px 30px 0;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .main-container {
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    .listRestaurant div {
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    .main-container h2 {
+        display: none;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .header-container-text h2, p {
+        line-height: normal;
+        text-align: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    
+    .listRestaurant div {
+        width: 148px;
+        padding: 0 30px 30px 0;
+    }
+
+    .main-container {
+        padding-top: 20%;
+        margin-left: 7%;
+    }
+
+
+}

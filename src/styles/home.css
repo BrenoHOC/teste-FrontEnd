@@ -49,32 +49,6 @@
     padding-left: 60px;
 }
 
-.header-container h2 {
-
-    font-family: Maison Neue Extended;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 140%;
-
-    text-align: right;
-
-    color: #141414;
-}
-
-.header-container p {
-    max-width: 350px;
-    
-    font-family: Maison Neue Extended;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 140%;
-
-    text-align: right;
-
-    color: #676666;
-}
 
 #logo {
     width: 87px;
@@ -83,24 +57,38 @@
     margin-top: 30px;
 }
 
-/** SECTION **/
 
-.main-container {
-    width: 730px;
-    margin: 30px 355px 174px 355px;
-}
-
-.main-container-restaurantes {
-    display: flex;
-    max-width: 730px;
-    flex-wrap: wrap;
-}
 
 .main-container h2 {
     padding: 15px;
 }
 
-.main-container-restaurantes .item {
-    width: 350px;
-    padding: 15px;
+
+@media only screen and (min-width: 1440px) {
+    .header-container h2 {
+
+        font-family: Maison Neue Extended;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 140%;
+    
+        text-align: right;
+    
+        color: #141414;
+    }
+
+    .header-container p {
+        max-width: 350px;
+        
+        font-family: Maison Neue Extended;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+    
+        text-align: right;
+    
+        color: #676666;
+    }
 }

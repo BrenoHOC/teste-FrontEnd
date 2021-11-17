@@ -1,0 +1,148 @@
+.restaurant-header-container {
+    display: inline-block;
+    width: 1440px;
+    height: 187px;
+}
+
+.restaurant-header-container-image {
+    width: 1440px;
+    max-height: 187px;
+}
+
+.restaurant-header-container-logo {
+    border-radius: 50%;
+    max-width: 119px;
+}
+
+
+.restaurant-header-container-div-logo {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: translate( -50%, -50% );
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.restaurant-main-information {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    width: 540px;
+    
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+.restaurant-main-information div {
+    width: 100%;
+}
+
+.restaurant-header-container-div-logo div {
+    padding-left: 23px;
+}
+
+.restaurant-main-information div h6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 140%;
+
+    color: #333333;
+}
+
+#description {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+
+    /* High Contrast */
+
+    color: #676666;
+
+    margin-bottom: 20px;
+}
+
+.information {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Dark up */
+
+    color: #808080;
+
+    margin-bottom: 20px;
+}
+
+#hr {
+    margin-bottom: 30px
+}
+
+.restaurant-name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140%;
+    /* identical to box height, or 45px */
+
+
+    /* Zero Contrast */
+
+    color: #FFFFFF;
+}
+
+.other-information {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+
+    /* Zero Contrast */
+
+    color: #FFFFFF;
+}
+.textVoltar {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    /* Zero Contrast */
+
+    color: #FFFFFF;    
+}
+
+.icon-voltar {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    transform: translate( -50%, -50% );
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .restaurant-header-container-div-logo {
+        left: 70%;
+        top: 25%
+    }
+}

@@ -1,13 +1,7 @@
+import { ListRestaurants } from './ListRestaurants';
+
 import logo from '../assets/images/logo.svg';
-import primeiroRestaurante from '../assets/images/first-restaurant.svg';
-import segundoRestaurante from '../assets/images/second-restaurant.svg';
-
-
 import '../styles/home.css';
-
-import { Link } from 'react-router-dom';
-
-
 
 export function Home() {
     
@@ -30,64 +24,7 @@ export function Home() {
             </header>
             <section className="main-container">
                     <h2>Restaurantes</h2>
-                <div className="main-container-restaurantes">
-
-                    <div className="item">
-                        <Link to="/restaurant">
-                            <img src={primeiroRestaurante}></img>
-                        </Link>
-                    </div>
-
-                    <div className="item">
-                        <Link to="/restaurant">
-                            <img src={segundoRestaurante}></img>
-                        </Link>
-                    </div>
-
-                    <div className="item">
-                        <Link to="/restaurant">
-                            <img src={primeiroRestaurante}></img>
-                        </Link>
-                    </div>
-
-                    <div className="item">
-                        <Link to="/restaurant">
-                            <img src={segundoRestaurante}></img>
-                        </Link>
-                    </div>
-
-                    <div className="item">
-                        <Link to="/restaurant">
-                            <img src={primeiroRestaurante}></img>
-                        </Link>
-                    </div>
-                    <div className="item">
-                        <Link to="/restaurant">
-                            <img src={segundoRestaurante}></img>
-                        </Link>
-                    </div>
-
-                    <div className="item">
-                        <Link to="/restaurant">
-                            <img src={primeiroRestaurante}></img>
-                        </Link>
-                    </div>
-                    <div className="item">
-                        <Link to="/restaurant">
-                            <img src={segundoRestaurante}></img>
-                        </Link>
-                    </div>
-                    <div className="item">
-                        <Link to="/restaurant">
-                            <img src={primeiroRestaurante}></img>
-                        </Link>
-                        </div>
-                    <div className="item">
-                        <Link to="/restaurant">
-                            <img src={segundoRestaurante}></img>
-                        </Link>
-                    </div>
-                </div>
+                    <ListRestaurants />
             </section>
         </div>            
     )
